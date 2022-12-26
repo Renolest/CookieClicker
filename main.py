@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 playing = False
-chrome_driver_path = "/Users/qigui/Downloads/chromedriver"
+chrome_driver_path = driver_path
 
 driver = webdriver.Chrome(service=Service(chrome_driver_path))
 driver.get("https://orteil.dashnet.org/experiments/cookie/")
